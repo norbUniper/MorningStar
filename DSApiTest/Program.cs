@@ -27,6 +27,7 @@ namespace DSApiTest
             DateTime answer = today.AddDays(-7);
             string TODAY_L7 = answer.ToString("MM-dd-yyyy");
 
+            //#debug mode
             TODAY = "11/04/2017";
             TODAY_L7 = "10/29/2017";
             string query = "";
